@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/ruby_what'
+
+# http://127.0.0.1:4000/
+RubyWhat::DocScraper.scrape_classes
+
+RubyWhat::Cli.new.run

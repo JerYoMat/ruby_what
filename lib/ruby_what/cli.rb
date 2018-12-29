@@ -1,0 +1,4 @@
+class RubyWhat::Cli
+
+
+end
